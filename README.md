@@ -1,3 +1,23 @@
+# How to run:
+### 1) Scroll down to Contents
+### 2) Go to intallation/ reinstallation/uninstallation
+### 3) Download the latest version of openpose released
+### 4) Unzip
+### 5) Go to the openpose/models and double click to run the getModels.bat file
+### 6) Openpose provides us with a demo executable as well as python and c++ api to code our own use case.
+### 7) For this task (getting keypoints in an array) we dont need any specific coding we can just use the precoded demo file with some flags to get our desired output.
+### 8) Return to the openpose folder (main directory), open command prompt and run the following commands
+#### #For webcam (just pose not face or hands)
+####  bin\OpenPoseDemo.exe
+#### #For webcam (With face and hand keypoints)
+#### bin\OpenPoseDemo.exe --face --hand 
+#### The demo can be done on images and prerecorded videos as well as some more ways to just get the needed keypoints check-> [here](https://github.com/CMU-Perceptual-Computing-Lab/openpose/blob/master/doc/quick_start.md#quick-start)
+
+#### Further to get our desired output (store video output as well as keypoints in an array in json files) run the below code in openpose directory.
+#### bin\OpenPoseDemo.exe --write_video output/result.avi --write_json output/
+#### here we specify we need video output in output folder with the desired name and json file in the output folder.
+
+
 <div align="center">
     <img src=".github/Logo_main_black.png", width="300">
 </div>
