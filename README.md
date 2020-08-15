@@ -20,6 +20,10 @@
 # END Of basic instructions  
 ## Example keypoint storage:
 ![alt text](https://res.cloudinary.com/gautzz/image/upload/v1597487620/github%20openpose/Example_keypoint_zu5lha.png)
+
+## Example video:
+
+"https://res.cloudinary.com/gautzz/video/upload/v1597487621/github%20openpose/Example_pose_estimation_rahmmr.mp4" 
 <div align="center">
     <img src=".github/Logo_main_black.png", width="300">
 </div>
