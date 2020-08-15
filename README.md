@@ -17,7 +17,9 @@
 #### bin\OpenPoseDemo.exe --write_video output/result.avi --write_json output/
 #### here we specify we need video output in output folder with the desired name and json file in the output folder.
 
-# END Of basic instructions          
+# END Of basic instructions  
+## Example keypoint storage:
+![alt text](https://res.cloudinary.com/gautzz/image/upload/v1597487620/github%20openpose/Example_keypoint_zu5lha.png)
 <div align="center">
     <img src=".github/Logo_main_black.png", width="300">
 </div>
